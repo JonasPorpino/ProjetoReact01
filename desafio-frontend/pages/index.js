@@ -9,7 +9,14 @@ export default function Home() {
           <p>Outro parágrafo</p>
         </div>
       </div>
-    
+      <div className="container">
+        <div className="border border-danger mb-3">
+          <h2 className="bg-danger text-white text-center"> Box 2 </h2>
+          <p>Um parágrafo</p>
+          <p>Outro parágrafo</p>
+          <button> Detalhamento </button>
+        </div>
+      </div>
       
     </>
   );
