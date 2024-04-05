@@ -1,23 +1,25 @@
+import Box from "@/components/Box";
 
 export default function Home() {
   return (
     <>
       <div className="container">
-        <div className="border border-danger">
-          <h1 className="bg-danger text-white text-center">Meu primeiro site</h1>
+        <Box titulo="Tomás Turbando">
           <p>Um parágrafo</p>
           <p>Outro parágrafo</p>
-        </div>
-      </div>
-      <div className="container">
-        <div className="border border-danger mb-3">
-          <h2 className="bg-danger text-white text-center"> Box 2 </h2>
+        </Box>
+        
+        <Box titulo="Oscar Alho">
           <p>Um parágrafo</p>
           <p>Outro parágrafo</p>
-          <button> Detalhamento </button>
-        </div>
+        </Box>
+          
+        <Box titulo="Cuca Beludo">
+          <p>Um parágrafo</p>
+          <p>Outro parágrafo</p>
+        </Box>
+
       </div>
-      
     </>
   );
 }
