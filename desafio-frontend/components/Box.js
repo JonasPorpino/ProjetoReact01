@@ -8,6 +8,12 @@ const Box = (props) => {
             <h1 className='bg-secondary text-white text-center'>{props.titulo}</h1>
             {props.children}
         </div>
+        <div>
+            <p>
+                {props.teste}
+            </p>
+        </div>
+        
     </>
   )
 }
