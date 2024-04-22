@@ -1,15 +1,15 @@
 import Pagina from '@/components/Pagina'
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
 
 
 
 const contador = () => {
     
-    let qtd = 0
+    const [quantidade, setQuantidade ] = useState(0)
     
     function adicionar(){
-        qtd = qtd+1
+        setQuantidade(quantidade+1)
     }
 
     return (
@@ -17,7 +17,7 @@ const contador = () => {
             <h1>Contador</h1>
 
             <Button onClick={adicionar}> + </Button>
-            <h2 className='mt-3'>{qtd}</h2>
+            <h2 className='mt-3'>{quantidade}</h2>
         </Pagina>
     )
 }
